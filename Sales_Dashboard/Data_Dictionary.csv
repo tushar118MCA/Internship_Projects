@@ -1,0 +1,13 @@
+Column,Data Type,Description,Business Relevance
+Order_ID,Text (ID),Unique identifier for each order,Used to detect duplicate/repeated orders
+Order_Date,Date,Date when the order was placed,Enables trend & seasonality analysis
+Customer_ID,Text (ID),Unique identifier for each customer,Used to track repeat customers
+Customer_Name,Text,Name of the customer,Useful for reporting
+Age,Numeric,Age of the customer in years,Enables age-group based segmentation
+Gender,Category,Gender of the customer (Male/Female),Useful for demographic analysis
+City,Category,City where the customer is located,Enables regional sales analysis
+Product,Category,Name of the product purchased,Identifies best-selling products
+Category,Category,"Product category (e.g., Electronics, Fashion)",Enables category-level sales analysis
+Quantity,Numeric,Number of units purchased in the order,Used to calculate sales volume
+Unit_Price,Numeric,Price per unit of the product (INR),Used to calculate revenue
+Total_Sales,Numeric,Total value of the order (Quantity x Unit_Price),Core revenue metric for the business
