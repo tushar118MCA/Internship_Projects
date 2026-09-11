@@ -16,6 +16,8 @@ Sales_Dashboard/
 ├── dim_customers.csv                         # Customer dimension table
 ├── Sales_dashboard_image1.csv                # Image 1
 ├── Sales_dashboard_image1.csv                # Image 2
+├── Hypotesis Testing Summary.md              # Hypothesis Testing
+├── Sales_Data_Story_Statistical_Validation.pptx  # Presentation
 ├── dim_products.csv                          # Product dimension table
 ├── fact_orders.csv                           # Orders fact table
 ├── Sales_Data.sql                            # Standalone SQL queries answering key business questions
